@@ -1,6 +1,6 @@
 #!/bin/bash -eix
 
-GITHUB_EVENT_PATH=/tmp/abc.json
+# GITHUB_EVENT_PATH=/tmp/abc.json
 
 PR_REF=$(jq -r .ref < "${GITHUB_EVENT_PATH}")
 PR_HEAD=$(basename "${PR_REF}")
