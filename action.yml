@@ -1,0 +1,6 @@
+name: 'JumpServer repos auto create pr with the branch'
+description: ''
+
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
